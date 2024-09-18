@@ -1,0 +1,14 @@
+// stawianie dockera z obrazem ubuntu
+
+
+- zainstalować Docker Desktop lub
+	docker -- version
+	docker pull ubuntu
+	docker run -it ubuntu
+	docker exec -it bash
+
+
+w konsoli bash
+
+	docker exec my_ubuntu_container find /etc -name '*.conf' ! -name '*a*' ! -name '*b*' ! -name '*c*'
+ 
