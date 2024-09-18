@@ -1,7 +1,7 @@
 // stawianie dockera z obrazem ubuntu
 
 
-- zainstalować Docker Desktop lub
+- zainstalować Docker Desktop, uruchomic i w konsoli:
 	docker -- version
 	docker pull ubuntu
 	docker run -it ubuntu
