@@ -10,5 +10,5 @@
 
 w konsoli bash
 
-	docker exec my_ubuntu_container find /etc -name '*.conf' ! -name '*a*' ! -name '*b*' ! -name '*c*'
+	docker exec ubuntu find /etc -name '*.conf' ! -name '*a*' ! -name '*b*' ! -name '*c*'
  
