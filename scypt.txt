@@ -10,5 +10,5 @@
 
 w konsoli bash
 
- find /etc -name '*.conf' ! -name '*a*' ! -name '*b*' ! -name '*c*'
+ find /etc -type f -name '*.conf' ! -name '*a*' ! -name '*b*' ! -name '*c*'
  
