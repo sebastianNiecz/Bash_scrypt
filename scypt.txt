@@ -4,7 +4,7 @@
 - zainstalować Docker Desktop, uruchomic i w konsoli:
 	docker -- version
 	docker pull ubuntu
-	docker run -it ubuntu
+	docker run -it ubuntu /bin/bash
 	docker exec -it bash
 
 
